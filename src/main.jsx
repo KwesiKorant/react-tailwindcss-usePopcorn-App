@@ -4,12 +4,11 @@ import './index.css'
 // import './styles.css'
 // import App from './App.jsx'
 
-import Star from './StarRating'
+import StarRating from './StarRating.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <Star maxRating={10} />
-    <Star/>
+    <StarRating/>
   </StrictMode>,
 )
